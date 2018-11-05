@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky-top">
+    <div class="sticky-top" >
         <nav class="navbar navbar-expand-lg shadow-sm navbar-light bg-white ">
             <div class="container-fluid">
                 <span class="p-0"><img src="@/assets/func.png" width="30px" alt=""> {{header}}</span>
