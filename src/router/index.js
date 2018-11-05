@@ -12,9 +12,10 @@ export default new Router({
   routes: [
     {  path: '/MM/MASTER', name: 'Master',component: Master},
     {  path:  '/MM/TRANSECTION', name: 'Transection',component: Transection },
+    {  path: '/SD/PageTest', name: 'PageTest',component: PageTest },
     {  path:  '/MM/Test', name: 'Test',component: Test },
     {  path: '*', component: Master },
 
-    {  path: '/SD/PageTest', name: 'PageTest',component: PageTest },
+    
   ]
 })
